@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bedwars: A Good Night's Sleep</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet"> 
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Archivo', sans-serif;
+      margin: 0;
+    }
+
+    .header {
+      padding: 30px;
+      text-align: center;
+      background: rgb(63, 114, 175);
+      color: black;
+    }
+
+    .header h1 {
+      font-size: 40px;
+      font-family: 'Archivo', sans-serif;
+    }
+
+    .navbar {
+      overflow: hidden;
+      background-color: rgb(17, 45, 78);
+      font-family: 'Archivo', sans-serif;
+    }
+
+    .navbar a {
+      float: right;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    .navbar a.left {
+      float: left;
+    }
+
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .row {  
+      display: -ms-flexbox; 
+      display: flex;
+      -ms-flex-wrap: wrap; 
+    }
+
+    .main {   
+      -ms-flex: 50%;
+      flex: 50%;
+      background-color: rgb(249, 247, 247);
+      padding: 20px;
+    }
+
+    .side {
+      -ms-flex: 50%;
+      flex: 50%;
+      background-color: rgb(219, 226, 239);
+      padding: 20px;
+    }
+
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: rgb(23, 68, 119);
+    }
+
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
+    @media screen and (max-width: 700px) {
+      .row {   
+        flex-direction: column;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      .navbar a {
+        float: none;
+        width: 100%;
+      }
+    }
+    </style>
+  </head>
+  <body>
+
+    <div class="header">
+      <h1>Bedwars: A Good Night's Sleep</h1>
+      <p<q>Not the Minecraft Hypixel minigame, please.</q> - definitely not Sun Tzu</p>
+    </div>
+
+    <div class="navbar">
+        <a href="home.html" class="left">Main Home</a>
+        <a href="references.html">References</a>
+        <a href="catalog.html">Catalog</a>
+        <a href="news.html">News</a>
+        <a href="about.html">About</a>
+        <a href="home.html">Home</a>
+    </div>
+
+    <div class="row">
+        <div class="main">
+            <h2>The Jeddon & Seatly Foundation</h2>
+            <h5>It consists of two, young, handsome men (It's literally only one but pretend it's just two people).</h5><br>
+            <ul>
+                <li>
+                    <h2>Lord Jeffson Ceasar M. Perez</h2>
+                    <img src="mrpogi.jpg" alt="Mr. Perez" class="center">
+                    <h5>Developer, Tester - <q>Hi. Why am I here again?</q></h5><br>
+                </li>
+            </ul>
+        </div>
+        <div class="side">
+            <h3>By the way! Please check out my builds since I worked hard on these in the past!</h3>
+            <h5>Short tutorial: Play Obby Creator on Roblox! Then, Find my username and take a look on my previous projects! :D</h5><br>
+            <ul>
+                <li>
+                    <h2>Popularpowerkid147 / Seatly</h2>
+                    <img src="seatly.png" alt="Mr. Seatly" class="center">
+                    <h5>Developer, Tester - <q>Wait, I misclicked something, whoops.</q></h5>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+      <h2>Terms of Use - Privacy Policy</h2>
+      <p>© 2022 The Jeddon & Seatly Foundation, All Rights Reserved</p>
+    </div>
+
+  </body>
+</html>
